@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vosbs",
+      "handler": "vosb.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vosbs/count",
+      "handler": "vosb.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vosbs/:id",
+      "handler": "vosb.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vosbs",
+      "handler": "vosb.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vosbs/:id",
+      "handler": "vosb.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vosbs/:id",
+      "handler": "vosb.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
