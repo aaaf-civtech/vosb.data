@@ -42,9 +42,6 @@
     "cage_code": {
       "type": "string"
     },
-    "duns_number": {
-      "type": "string"
-    },
     "in_sam": {
       "type": "string"
     },
@@ -53,6 +50,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "duns_numbers": {
+      "type": "biginteger"
     }
   }
 }
