@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "vosbs",
   "info": {
-    "name": "vosb"
+    "name": "vosb",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -34,6 +35,24 @@
     },
     "capabilities": {
       "type": "text"
+    },
+    "trade_name": {
+      "type": "string"
+    },
+    "cage_code": {
+      "type": "string"
+    },
+    "duns_number": {
+      "type": "string"
+    },
+    "in_sam": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
